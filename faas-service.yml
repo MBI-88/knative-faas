@@ -20,7 +20,7 @@ spec:
       containers:
         - image: mbi8807/faas-python:faas
           name: faas-cmp
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
           ports:
             - containerPort: 8000
           securityContext:
